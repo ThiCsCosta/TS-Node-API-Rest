@@ -1,4 +1,4 @@
-import server from './server/Server';
-
-server.listen(3333, ()=> console.log('App rodando'));
+import server from "./server/Server";
+const PORT = 3333;
+server.listen(PORT, ()=> console.log(`Servidor rodando  http://localhost:${PORT}`));
 
